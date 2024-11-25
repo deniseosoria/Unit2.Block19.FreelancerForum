@@ -96,7 +96,7 @@ function init() {
 class Table {
   constructor(parentElement) {
     this.parentElement = parentElement; // The element where the table will be appended
-    this.table = document.createElement("table");
+    this.table = document.createElement("table"); // Create a table element
     this.parentElement.appendChild(this.table); // Append the table to the parentElement
   }
 
